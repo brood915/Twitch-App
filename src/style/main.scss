@@ -1,7 +1,87 @@
-@mixin colorBlue () {
-	color: blue;
+@media screen and (max-width: 1109px) {
+  .savedContent {
+    font-size: 30px;
+  }
+  .header span {
+    display: block !important;
+  }
 }
 
-body {
-	@include colorBlue ();
+@media screen and (max-width: 855px) {
+  .btn,
+  input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .savedContent {
+    font-size: 20px;
+  }
+}
+
+@mixin center() {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  min-height: 100px;
+}
+
+body,
+html {
+  height: 100%;
+  text-align: center;
+  background-color: #e1eef6;
+}
+
+#app {
+  min-height: 100%;
+  width: 80%;
+  font-weight: bold;
+  font-size: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #ff5f2e;
+  padding-bottom: 50px;
+}
+
+.btn {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  background-color: #004e66;
+  color: #e1eef6;
+  input {
+    color: #004e66;
+    width: 400px;
+  }
+  span {
+    display: inline;
+  }
+}
+
+span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.result {
+  margin-top: 50px;
+}
+
+.searchContent {
+  @include center();
+}
+
+.savedContent {
+  @include center();
+  background-color: #fcbe32;
+  padding: 10px;
+  color: #004e66;
+  border-radius: 10px;
 }

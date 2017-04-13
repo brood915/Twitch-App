@@ -1,20 +1,16 @@
-# ReactJS Boilerplate with webpack 2
+# Twitch App
 
 ```
-ES6
-React
-SASS/SCSS
-html-webpack-plugins
-react-router
-fetch-jsonp
+A twitch application that allows users to search for & save their favorite streamers to the local storage and consumes RESTful APIs to show the streamers' info, including their live status. 
+
+Very handy to check your favorite streamers' status all at once!
 ```
 
 
 ### To run this application
 
 ```
-npm install to install all dependencies
-npm run start to start webpack-dev-server
+npm install
+npm run start
 server running at localhost:1337
-npm run build for production
 ```
