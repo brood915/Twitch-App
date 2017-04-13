@@ -23,4 +23,4 @@ server running at localhost:1337
 ```
 
 
-Codepen: https://codepen.io/brood915/pen/OWQpmy
+Codepen: https://codepen.io/brood915/full/OWQpmy/
