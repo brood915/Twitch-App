@@ -1,7 +1,7 @@
 import StreamersContainerHeader from '../components/StreamersContainerHeader';
 import StreamersContainerResult from '../components/StreamersContainerResult';
 import React from 'react';
-const PropTypes = React.PropTypes;
+import PropTypes from 'prop-types';
 
 function StreamersContainer(props) {
   return (<div className = 'displayContainer'>

@@ -1,11 +1,11 @@
 import React from 'react';
-const PropTypes = React.PropTypes;
+import PropTypes from 'prop-types';
 
 
 function StreamersContainerResult(props) {
   return (<div>{props.streamers.map(function(each)
 {
-  return (<div>{props.getStreamer(each[0], each[1])}</div>);
+  return (<div key = {each[1]['_id'].toString()}>{props.getStreamer(each[0], each[1])}</div>);
 })}</div>);
 
 }

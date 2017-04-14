@@ -29,7 +29,7 @@ class MainContainer extends React.Component {
     if (obj2.hasOwnProperty('status') === true) { //if already added user's channel is closed
       return (<div className='savedContent result'><div>{obj2.name} Not Found!</div><button type = 'button' onClick ={this.handleDeleting} className="btn btn-danger">Delete</button></div>);
     } else {
-      return (<div className='savedContent result' status = {obj1.stream} value = {obj2.name} key = {obj2['_id'].toString()}><a href={'https://www.twitch.tv/'+ obj2.name} target ='_blank'><img height = '150px' src={obj2.logo} alt ='No img found'/></a><div>Name: {obj2.display_name}</div><div>Status: {obj1.stream === null ? 'Offline' : 'Online'}</div><button value = {obj2.name} type = 'button' onClick ={this.state.searching === false ? this.handleDeleting : this.handleAdding} className="btn btn-danger">{this.state.searching === false ? 'Delete' : this.state.adding}</button></div>)
+      return (<div className='savedContent result'><a href={'https://www.twitch.tv/'+ obj2.name} target ='_blank'><img height = '150px' src={obj2.logo} alt ='No img found'/></a><div>Name: {obj2.display_name}</div><div>Status: {obj1.stream === null ? 'Offline' : 'Online'}</div><button value = {obj2.name} type = 'button' onClick ={this.state.searching === false ? this.handleDeleting : this.handleAdding} className="btn btn-danger">{this.state.searching === false ? 'Delete' : this.state.adding}</button></div>)
     }
   }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-const PropTypes = React.PropTypes;
+import PropTypes from 'prop-types';
 
 function FinderContainerHeader(props) {
   return (<div className='header'>

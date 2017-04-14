@@ -1,5 +1,5 @@
 import React from 'react';
-const PropTypes = React.PropTypes;
+import PropTypes from 'prop-types';
 
 function FinderContainerResult(props) {
   if (Object.keys(props.streamer).length === 0) { //before search
