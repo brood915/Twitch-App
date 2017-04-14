@@ -1,14 +1,14 @@
 import React from 'react';
 const PropTypes = React.PropTypes;
 import FinderContainerHeader from '../components/FinderContainerHeader';
-import FinderResultContainer from '../components/FinderResultContainer';
+import FinderContainerResult from '../components/FinderContainerResult';
 
 function FinderContainer(props) {
   return (<div className = 'displayContainer'>
   	<FinderContainerHeader 
   	handleDisplay = {props.handleDisplay} handleInput = {props.handleInput} 
   	handleSubmit = {props.handleSubmit} />
-  	<FinderResultContainer streamer = {props.streamer} 
+  	<FinderContainerResult streamer = {props.streamer} 
   	getStreamer = {props.getStreamer} /></div>);
 
 }

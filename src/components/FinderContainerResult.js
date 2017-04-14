@@ -1,7 +1,7 @@
 import React from 'react';
 const PropTypes = React.PropTypes;
 
-function FinderResultContainer(props) {
+function FinderContainerResult(props) {
   if (Object.keys(props.streamer).length === 0) { //before search
     return (<div className = "result">Search for your favorite twitch streamer!</div>);
   } else if (props.streamer[1].hasOwnProperty('status') === true) {
@@ -11,10 +11,10 @@ function FinderResultContainer(props) {
   }
 }
 
-FinderResultContainer.propTypes = {
+FinderContainerResult.propTypes = {
   streamer: PropTypes.array.isRequired,
   getStreamer: PropTypes.func.isRequired
 }
 
 
-export default FinderResultContainer;
+export default FinderContainerResult;
