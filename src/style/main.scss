@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 855px) {
-  .btn,
+  .header .btn,
   input {
     width: 100% !important;
     margin-left: 0 !important;
@@ -21,7 +21,8 @@
 @mixin center() {
   position: relative;
   width: 80%;
-  left: 10%;
+  margin: auto;
+  top:0; left:0; right:0; bottom:0;
   min-height: 100px;
 }
 
@@ -48,7 +49,10 @@ html {
 
 .btn {
   font-weight: bold;
-  margin-left: 20px;
+}
+
+.header .btn {
+   margin-left: 20px;
 }
 
 .header {
@@ -71,11 +75,17 @@ span {
 }
 
 .result {
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 .searchContent {
   @include center();
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  
 }
 
 .savedContent {
