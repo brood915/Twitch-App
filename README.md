@@ -11,6 +11,8 @@ Some active twitch streamers:
 
 esl_sc2, esl, storbeck, starladder1, hanryang1125
 
+Used ReactJs, SCSS, and Twitch REST APIs.
+
 ```
 
 
