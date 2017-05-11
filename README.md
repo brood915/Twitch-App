@@ -1,5 +1,7 @@
 # Twitch App
 
+Demo: https://brood915.github.io/Twitch-App/
+
 ```
 A twitch application that allows users to search for 
 & save their favorite streamers to the local storage. 
@@ -25,4 +27,3 @@ server running at localhost:1337
 ```
 
 
-Codepen: https://codepen.io/brood915/full/OWQpmy/
