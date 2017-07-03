@@ -1,3 +1,4 @@
+import "babel-polyfill";
 import React from 'react';
 import fetchJsonp from 'fetch-jsonp';
 import StreamersContainer from './StreamersContainer';
