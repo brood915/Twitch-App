@@ -18,12 +18,23 @@ Used HTML, CSS/SASS, ReactJS, and Twitch REST APIs.
 ```
 
 
-### To run this application
+### Quick start
+```bash
+# clone repo
+$ git clone https://github.com/brood915/Twitch-App.git
 
+# change directory to the app
+$ cd twitch-app
+
+# install the dependencies with npm
+$ npm install
+
+# start the server
+$ npm start
+
+# start the app
+$ Go to http://localhost:1337 in your browser.
 ```
-npm install
-npm run start
-server running at localhost:1337
-```
+
 
 
